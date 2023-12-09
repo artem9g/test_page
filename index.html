@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Dashboard</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- <style>body{opacity: 0;}</style> -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20231209191619" />
+    <link rel="shortcut icon" href="img/icons/logo.svg" />
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <main class="customers">
+        <div class="customers__container">
+          <div class="side-nav">
+            <div class="side-nav__wrapper">
+              <div class="side-nav__top logo-box">
+                <a href="#" class="logo-box__image-ibg"><img src="img/icons/logo.svg" alt="logo" /></a>
+                <a href="#" class="logo-box__site-title">Dashboard</a>
+                <span class="logo-box__version">v.01</span>
+              </div>
+              <nav class="side-nav__menu">
+                <ul class="side-nav__list">
+                  <li><a class="dashboard-link" href="#">Dashboard</a></li>
+                  <li><a class="product-link" href="#">Product</a></li>
+                  <li><a class="customers-link" href="#">Customers</a></li>
+                  <li><a class="income-link" href="#">Income</a></li>
+                  <li><a class="promote-link" href="#">Promote</a></li>
+                  <li><a class="help-link" href="#">Help</a></li>
+                </ul>
+              </nav>
+              <div class="side-nav__bottom prev-profile">
+                <div class="prev-profile__image-ibg">
+                  <picture
+                    ><source srcset="img/photos/photo-project-manager.webp" type="image/webp" />
+                    <img src="img/photos/photo-project-manager.png" alt="photo-project-manager"
+                  /></picture>
+                </div>
+
+                <div class="prev-profile__info">
+                  <div class="prev-profile__name">Evano</div>
+                  <div class="prev-profile__position">Project Manager</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="customers__block">
+            <div class="customers__title">
+              <p>Hello Evano 👋🏼,</p>
+              <button type="button" class="menu__icon icon-menu"><span></span></button>
+            </div>
+
+            <div class="customers__customers-all pages-list">
+              <div class="pages-list-header">
+                <div class="pages-list-header__left">
+                  <div class="pages-list__title">All Customers</div>
+                  <div class="pages-list__subtitle">Active Members</div>
+                </div>
+                <div class="pages-list-header__right">
+                  <div class="pages-list__search search-box">
+                    <a href="#" rel="nofollow" class="search-btn"> <img src="img/icons/search-i.svg" alt="search-button" /> </a
+                    ><input id="search" class="search-txt" placeholder="Search" />
+
+                    <div class="dropdown-menu" style="display: none">
+                      <div class="items"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pages-list__main">
+                <table class="pages-list__table">
+                  <thead>
+                    <tr class="pages-list__titles-columns">
+                      <th>Customer Name</th>
+                      <th>Company</th>
+                      <th>Phone Number</th>
+                      <th>Email</th>
+                      <th>Country</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Jane Cooper</td>
+                      <td>Microsoft</td>
+                      <td>(225) 555-0118</td>
+                      <td>jane@microsoft.com</td>
+                      <td>United States</td>
+                      <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                      <td>Floyd Miles</td>
+                      <td>Yahoo</td>
+                      <td>(205) 555-0100</td>
+                      <td>floyd@yahoo.com</td>
+                      <td>Kiribati</td>
+                      <td class="inactive">Inactive</td>
+                    </tr>
+                    <tr>
+                      <td>Ronald Richards</td>
+                      <td>Adobe</td>
+                      <td>(302) 555-0107</td>
+                      <td>ronald@adobe.com</td>
+                      <td>Israel</td>
+                      <td class="inactive">Inactive</td>
+                    </tr>
+                    <tr>
+                      <td>Marvin McKinney</td>
+                      <td>Tesla</td>
+                      <td>(252) 555-0126</td>
+                      <td>marvin@tesla.com</td>
+                      <td>Iran</td>
+                      <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                      <td>Jerome Bell</td>
+                      <td>Google</td>
+                      <td>(629) 555-0129</td>
+                      <td>jerome@google.com</td>
+                      <td>Réunion</td>
+                      <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                      <td>Kathryn Murphy</td>
+                      <td>Microsoft</td>
+                      <td>(406) 555-0120</td>
+                      <td>kathryn@microsoft.com</td>
+                      <td>Curaçao</td>
+                      <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                      <td>Jacob Jones</td>
+                      <td>Yahoo</td>
+                      <td>(208) 555-0112</td>
+                      <td>jacob@yahoo.com</td>
+                      <td>Brazil</td>
+                      <td class="active">Active</td>
+                    </tr>
+                    <tr>
+                      <td>Kristin Watson</td>
+                      <td>Facebook</td>
+                      <td>(704) 555-0127</td>
+                      <td>kristin@facebook.com</td>
+                      <td>Åland Islands</td>
+                      <td class="inactive">Inactive</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="pages-list__footer">
+                  <div class="pages-list__amounts-entires">Showing data <php> 1 </php> to <php>8</php> of <php>256K</php> entries</div>
+                  <nav class="pages-list__navigation pagination">
+                    <div class="nav-links">
+                      <a class="prev page-numbers" href="#/"> <span class="arrow-left"> </span></a>
+                      <span aria-current="page" class="page-numbers current">1</span>
+                      <a class="page-numbers" href="#">2</a>
+                      <a class="page-numbers" href="#">3</a>
+                      <a class="page-numbers" href="#">4</a>
+                      <a class="page-numbers dots" href="#">...</a>
+                      <a class="page-numbers" href="#">40</a>
+                      <a class="next page-numbers" href="#/"><span class="arrow-right"></span></a>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <span class="burger-cover-click"></span>
+      <footer class="footer">
+        <div class="footer__container"></div>
+      </footer>
+    </div>
+    <script src="js/app.min.js?_v=20231209191619"></script>
+  </body>
+</html>
+<!-- <div class="search-box toggle" data-url="https://senior.ua/search">
+                        <input id="search" class="search-txt" name="search-txt" placeholder="Виконайте пошук за словом" autocomplete="off">
+                        <a href="#" rel="nofollow" class="search-btn" onclick="return Search.prototype.handleBtn();">
+                            <svg class="open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146.77 146.77"><g><g><path d="M16.92,54.7a36.43,36.43,0,0,1,11-26.76,36.44,36.44,0,0,1,26.76-11,36.46,36.46,0,0,1,26.76,11,36.46,36.46,0,0,1,11,26.76,36.44,36.44,0,0,1-11,26.76,36.43,36.43,0,0,1-26.76,11,36.41,36.41,0,0,1-26.76-11A36.41,36.41,0,0,1,16.92,54.7ZM98.38,92.47,96,90.11q13-14.95,13-35.41,0-22.82-15.74-38.76T54.7,0Q31.87,0,15.94,15.94T0,54.7Q0,77.52,15.94,93.26T54.7,109q20.46,0,35.41-13l2.36,2.36v6.69l41.71,41.71,12.59-12.59L105.06,92.47Z"></path></g></g></svg>
+                            <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136.28 136.28"><g><g><polygon points="136.28 7.78 128.5 0 68.14 60.36 7.78 0 0 7.78 60.36 68.14 0 128.5 7.78 136.28 68.14 75.92 128.5 136.28 136.28 128.5 75.92 68.14 136.28 7.78"></polygon></g></g></svg>
+                        </a>
+                        <div class="dropdown-menu" style="display: none;">
+                            <div class="items"></div>
+                        </div>
+                    </div> -->
+<!-- /////////////////////////////////////////////////////////////////// -->
+<!-- <nav class="navigation pagination" aria-label="Posts">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="https://rose.az-theme.net/page/2/">2</a>
+<a class="page-numbers" href="https://rose.az-theme.net/page/3/">3</a>
+<a class="next page-numbers" href="https://rose.az-theme.net/page/2/"><span class="fa fa-angle-right"></span></a></div>
+	</nav> -->
